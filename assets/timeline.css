@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 75vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f0ef;
+  float: right;
+}
+
+h2 {
+  font-size: 20px;
+  color: #F68338;
+}
+
+p {
+  color: black;
+  margin: 0;
+}
+
+.timeline {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 30px;
+  position: relative;
+  height: 500px;
+  overflow: scroll;
+  overflow-x: visible;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline ul li {
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.timeline ul li:last-child {
+  margin-bottom: 0
+}
+
+.timeline-content h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.timeline-content .date {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .timeline::before {
+    content: '';
+    position: absolute;
+    height: 230%;
+    width: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(185, 180, 180);
+  }
+  .timeline ul li {
+    width: 40%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-6px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(-15px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(185, 182, 182);
+    border-radius: 50%;
+    top: 0;
+  }
+  .timeline ul li:nth-child(odd)::after {
+    transform: translate(50%, -50%);
+    right: -34px;
+  }
+  .timeline ul li:nth-child(even)::after {
+    transform: translate(-50%, -50%);
+    left: -46px;
+  }
+  .timeline ul li:hover::after {
+    background-color: #F68338;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+}

@@ -1,0 +1,236 @@
+body {
+  background-image: url(../images/zurich.JPG);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-color: rgb(244, 241, 241);
+  font-family: 'Rambla', sans-serif;
+}
+
+.nav1 {
+  position: fixed;
+  background-color: transparent;
+}
+
+.onPage {
+  color: #F68338;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.nav2 {
+  color: #bebaba;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.r1 {
+  margin-left: 100px;
+}
+
+.r2 {
+  padding-bottom: 20px;
+  margin-left: 100px;
+}
+
+.header2 {
+  color: #F68338;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h6 {
+  color: #F68338;
+  font-size: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+  color: #F68338;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+ul {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}
+
+.cardStart {
+  margin-top: 100px;
+}
+
+.image {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.pImages {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F68338;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.overlay>* {
+  transform: translateY(30px);
+  transition: transform 0.5s;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.overlay:hover>* {
+  transform: translate(0);
+}
+
+@media screen and (max-width: 576px) {
+  .header1 {
+    margin-left: 150px;
+    margin-top: 0;
+  }
+  img {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+  .cardStart {
+    margin-top: 250px;
+  }
+  .contact2 {
+    margin-top: 150px;
+  }
+  ul {
+    width: 40px;
+    display: flex;
+  }
+  nav {
+    position: fixed-top;
+  }
+  .styling {
+    margin-top: 150px;
+  }
+  .skills {
+    margin-top: 150px;
+    width: 100%;
+    float: none;
+  }
+  .timeline ul {
+    flex-direction: column;
+    width: 100%;
+    float: none;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.card {
+  margin: 6px;
+}
+
+.styling {
+  background-color: #ffffff;
+  box-shadow: 11px 7px 16px #eeeeee;
+  border: 0;
+  text-align: left;
+}
+
+.ctag {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #F68338;
+  color: #ffffff;
+}
+
+.folio {
+  margin-top: 10px;
+}
+
+/* nav ul li a {
+  color: #f4eded;
+  font-size: 22px;
+  margin: auto 10px;
+} */
+
+nav ul li a:hover {
+  color: #F68338;
+  text-decoration: underline;
+}
+
+.about {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.image1 {
+  max-height: 300px;
+  width: auto;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+.submit {
+  width: 116px;
+  float: right;
+}
+
+.mainImg {
+  width: auto;
+  height: 50px;
+}
+
+label {
+  float: left;
+  color: #F68338;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.smIcons {
+  height: 20px;
+  width: 20px
+}
+
+ul li a {
+  color: #bebaba;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #F68338;
+  text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+
+
+h6 {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.skills {
+  width: 300px;
+  margin: 20px auto;
+  color: white;
+  list-style: none;
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.bar {
+  background: #ffffff;
+  display: block;
+  height: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #F68338;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #F68338;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+  -webkit-animation: html 2s;
+}
+
+.css {
+  width: 65%;
+  animation: css 2s;
+  -webkit-animation: css 2s;
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 2s;
+  -webkit-animation: javascript 2s;
+}
+
+.sql {
+  width: 60%;
+  animation: sql 2s;
+  -webkit-animation: sql 2s;
+}
+
+.react {
+  width: 65%;
+  animation: react 2s;
+  -webkit-animation: react 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
