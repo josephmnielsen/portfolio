@@ -1,7 +1,5 @@
-# myFirstPortfolio
+# Working Portfolio
 
-This is a basic portfolio site to show my comprehension of the skills we have practiced in HTML and CSS.
+This is a portfolio project to exercise my HTML and CSS skills as well as to display my projects which use HTML, CSS, JavaScript, Node, MySql, Mongo, React, and RESTful APIs.
 
-** Overhaul on header as well as fonts and coloring throughout. Portfolio has been updated with current projects/assignments.
-
-Deployed link : https://josephmnielsen.github.io/myFirstPortfolio/
+[Deployed link :](https://josephmnielsen.github.io/portfolio/)
