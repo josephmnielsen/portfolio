@@ -133,13 +133,15 @@ ul {
   nav {
     position: fixed-top;
   }
-  .styling {
-    margin-top: 150px;
+  .timeL {
+    float: left;
   }
+ 
+  
   .skills {
     margin-top: 150px;
     width: 100%;
-    float: none;
+    float: left;
   }
   .timeline ul {
     flex-direction: column;
@@ -149,6 +151,12 @@ ul {
   .container {
     flex-direction: column;
     width: 100%;
+  }
+  .iH {
+    margin-top: 100px;
+  }
+  .social {
+    flex-direction: column;
   }
 }
 
@@ -175,12 +183,6 @@ ul {
 .folio {
   margin-top: 10px;
 }
-
-/* nav ul li a {
-  color: #f4eded;
-  font-size: 22px;
-  margin: auto 10px;
-} */
 
 nav ul li a:hover {
   color: #F68338;
