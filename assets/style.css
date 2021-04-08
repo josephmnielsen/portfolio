@@ -130,8 +130,8 @@ ul {
     width: 40px;
     display: flex;
   }
-  nav {
-    position: fixed-top;
+  .nav1 {
+    position:absolute;
   }
   .timeL {
     float: left;
