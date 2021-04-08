@@ -111,7 +111,7 @@ ul {
   transform: translate(0);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .header1 {
     margin-left: 150px;
     margin-top: 0;
@@ -136,12 +136,10 @@ ul {
   .timeL {
     float: left;
   }
- 
-  
   .skills {
     margin-top: 150px;
+    margin-left: 0%;
     width: 100%;
-    float: left;
   }
   .timeline ul {
     flex-direction: column;
@@ -196,6 +194,7 @@ nav ul li a:hover {
 
 .container {
   margin-top: 100px;
+  width: 100%;
 }
 
 .image1 {

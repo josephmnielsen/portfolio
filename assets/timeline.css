@@ -6,11 +6,10 @@
 
 .container {
   min-height: 75vh;
-  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3f0ef;
+  background-color:transparent;
   float: right;
 }
 
