@@ -1,5 +1,5 @@
 # Working Portfolio
 
-This is a portfolio project to exercise my HTML and CSS skills as well as to display my projects which use HTML, CSS, JavaScript, Node, MySql, Mongo, React, and RESTful APIs.
+This is a portfolio project to exercise my HTML and CSS skills as well as to display my projects utilizing Javascript, Sql/NoSQL, API, Express, Node.js, and React. 
 
-[Deployed link :](https://josephmnielsen.github.io/portfolio/)
+[Click here to visit deployed page](https://josephmnielsen.github.io/portfolio/)
