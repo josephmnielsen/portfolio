@@ -1,5 +1,25 @@
-# Working Portfolio
+# Portfolio
 
-This is a portfolio project to exercise my HTML and CSS skills as well as to display my projects utilizing Javascript, Sql/NoSQL, API, Express, Node.js, and React. 
+## Description
 
-[Click here to visit deployed page](https://josephmnielsen.github.io/portfolio/)
+
+### Deployed Link
+[Portfolio](https://josephmnielsen.github.io/portfolio)
+
+## Preview
+
+Home                                         |  Portfolio
+:-------------------------------------------:|:-------------------------------------------:
+![alt screenshot](images/homeSs.png)  |  ![alt screenshot](images/portfolioSs.png)
+
+## Questions
+
+Feel free to contact me with any questions via github or email:
+
+GitHub:  
+
+- [/josephmnielsen](https://github.com/josephmnielsen)
+
+Email: 
+
+- [josephmnielsen@gmail.com](josephmnielsen@gmail.com)
