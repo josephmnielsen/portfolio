@@ -1,6 +1,7 @@
 # Portfolio
 
 ## Description
+This is a portfolio page utilizing advanced HTML, CSS, and JavaScript. 
 
 
 ### Deployed Link
