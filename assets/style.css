@@ -131,7 +131,7 @@ ul {
     display: flex;
   }
   .nav1 {
-    position:absolute;
+    position: absolute;
   }
   .timeL {
     float: left;
@@ -234,4 +234,24 @@ ul li a {
 ul li a:hover {
   color: #F68338;
   text-decoration: underline;
+}
+
+.link {
+  width: auto;
+  height: 45px;
+  padding: 10px
+}
+
+.git {
+  width: auto;
+  height: 45px;
+  padding: 10px
+}
+
+.gitLink {
+  display: inline-block;
+}
+
+.linkLink {
+  display: inline-block;
 }
