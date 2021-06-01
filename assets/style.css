@@ -89,7 +89,7 @@ ul {
   width: 100%;
   height: 100%;
   background: #F68338;
-  color: rgb(255, 255, 255);
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +97,10 @@ ul {
   opacity: 0;
   transition: opacity 0.5s;
 }
-
+.description { 
+  color: black;
+  margin-top: 10px;
+}
 .overlay>* {
   transform: translateY(30px);
   transition: transform 0.5s;
