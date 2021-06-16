@@ -193,6 +193,7 @@ ul {
 nav ul li a:hover {
   color: #F68338;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .about {
