@@ -12,9 +12,12 @@ body {
 }
 
 .onPage {
-  color: #F68338;
+  color: #bebaba;
   text-transform: uppercase;
   font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #F68338;
+  text-decoration-thickness: 2px;
 }
 
 .nav2 {
@@ -97,10 +100,12 @@ ul {
   opacity: 0;
   transition: opacity 0.5s;
 }
-.description { 
+
+.description {
   color: black;
   margin-top: 10px;
 }
+
 .overlay>* {
   transform: translateY(30px);
   transition: transform 0.5s;
